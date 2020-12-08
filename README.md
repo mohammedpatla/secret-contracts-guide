@@ -180,7 +180,7 @@ Upload the optimized contract.wasm.gz:
 ```
 docker exec -it secretdev /bin/bash
 
-cd code
+cd code/<my-folder-name>
 
 secretcli tx compute store contract.wasm.gz --from a --gas 1000000 -y --keyring-backend test
 ```
